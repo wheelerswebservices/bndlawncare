@@ -1,0 +1,76 @@
+@media screen and (max-width: 1024px){
+
+	#brand {
+		align-items: flex-end;
+		flex-direction: column;
+	}
+
+	#brand-name {
+		font-size: 48px;
+		padding: 0 4px;
+	}
+
+	#brand-logo {
+		display: none;
+	}
+
+	#header {
+		margin: 16px 0;
+	}
+
+	#social-header {
+		width: 15%;
+	}
+
+	#social-footer .social-data {
+		margin-left: 24px;
+	}
+
+	.background--secondary {
+		padding: 4px 16px 16px 16px;
+	}
+
+	.content-header {
+		font-size: xx-large;
+	}
+
+	.floating-content-container {
+		flex-direction: column;
+	}
+
+	.floating-content {
+		font-size: medium;
+	}
+
+	.photo {
+		font-size: 14px;
+		width: 40%;
+	}
+
+	.social-data {
+		margin-left: 8px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+
+	#brand-name {
+		font-size: 32px;
+	}
+
+	#social-header {
+		width: 22%;
+	}
+
+	.content-header {
+		font-size: x-large;
+	}
+
+	.floating-content {
+		font-size: small;
+	}
+
+	.service-offering {
+		column-count: 1;
+	}
+}

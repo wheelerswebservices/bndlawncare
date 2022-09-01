@@ -1,0 +1,158 @@
+
+ul {
+	list-style-type: square;
+}
+
+#brand {
+	align-items: baseline;
+	display: flex;
+	flex-direction: row;
+}
+
+#brand-name {
+	color: rgb(161, 0, 150);
+	font-size: 70px;
+	font-style: italic;
+	padding: 10px;
+}
+
+#brand-logo {
+	border: 0.1em solid rgb(161, 0, 150);
+	margin-left: 20px;
+}
+
+#brand-phrase {
+	font-size: 14px;
+	font-style: italic;
+}
+
+#header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 20px;
+	width: 95%;
+}
+
+#photo-album {
+	margin-left: 8px;
+}
+
+#photo-album-content {
+	text-align: center;
+}
+
+#photo-stop {
+	clear: both;
+}
+
+#social-header {
+	width: 9%;
+}
+
+#social-header .social-wrap {
+	float: right;
+}
+
+#social-footer {
+	margin: 0 auto;
+	width: 20%;
+}
+
+.accent {
+	color: rgb(161, 0, 150);
+}
+
+.background--primary {
+    background-color: rgb(250, 250, 250);
+}
+
+.background--secondary {
+	background-color: rgb(255, 255, 255);
+	border: 0 solid #000000;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 16px;
+	padding: 4px 24px 24px 24px;
+}
+
+.content-header {
+	color: rgb(161, 0, 150);
+	font-size: xxx-large;
+	font-weight: bold;
+	text-align: center;
+}
+
+.floating-content-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+.floating-content {
+	font-size: x-large;
+}
+
+.photo {
+	float: left;
+	font-size: 20px;
+	margin: 8px;
+	text-align: center;
+	width: 23%;
+}
+
+.photo > img {
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+	width: 100%;
+}
+
+.photo-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.service-offering {
+	column-count: 2;
+}
+
+.social-data {
+	font-size: xx-large;
+}
+
+.social-wrap {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 80%;
+}
+
+.user-data {
+	display: block;
+	margin-bottom: 4px;
+}
+
+@media screen and (max-width: 768px){
+
+	#brand-name {
+		font-size: 36px;
+		padding: 0 4px;
+	}
+
+	#header {
+		margin: 0;
+	}
+
+	.content-header {
+		font-size: xx-large;
+	}
+
+	.floating-content-container {
+		flex-direction: column;
+	}
+
+	.floating-content {
+		font-size: large;
+	}
+}

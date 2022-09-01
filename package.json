@@ -1,0 +1,31 @@
+{
+  "name": "bndlawncareFrontend",
+  "version": "1.0.0",
+  "description": "bndlawncareFrontend",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack --mode production",
+    "webpack-watch": "webpack --mode development --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git-codecommit.us-east-1.amazonaws.com/v1/repos/bndlawncareFrontendRepository"
+  },
+  "author": "Justin Wheeler <bndlawncare.aws@yahoo.com>",
+  "license": "ISC",
+  "dependencies": {
+    "jwt-decode": "^3.1.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.4.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "react-test-renderer": "^16.2.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.0"
+  }
+}
